@@ -1,0 +1,73 @@
+@font-face {
+    font-family: MyriadArabic;
+    src: url("./fonts/MyriadArabic-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: MyriadArabic;
+    font-weight: bold;
+    src: url("./fonts/MyriadArabic-Bold.otf") format("opentype");
+}
+@font-face {
+    font-family: MyriadArabic;
+    font-style: italic;
+    font-weight: bold;
+    src: url("./fonts/MyriadArabic-BoldIt.otf") format("opentype");
+}
+@font-face {
+    font-family: MyriadArabic;
+    font-style: italic;
+    src: url("./fonts/MyriadArabic-It.otf") format("opentype");
+}
+
+@font-face {
+    font-family: MyriadHebrew;
+    src: url("./fonts/MyriadHebrew-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: MyriadHebrew;
+    font-style: italic;
+    font-weight: bold;
+    src: url("./fonts/MyriadHebrew-BoldIt.otf") format("opentype");
+}
+@font-face {
+    font-family: MyriadHebrew;
+    font-style: italic;
+    src: url("./fonts/MyriadHebrew-It.otf") format("opentype");
+}
+@font-face {
+    font-family: MyriadHebrew;
+    font-weight: bold;
+    src: url("./fonts/MyriadHebrew-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: MyriadPro;
+    src: url("./fonts/MyriadPro-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: MyriadPro;
+    font-style: italic;
+    font-weight: bold;
+    src: url("./fonts/MyriadPro-BoldIt.otf") format("opentype");
+}
+@font-face {
+    font-family: MyriadPro;
+    font-style: italic;
+    src: url("./fonts/MyriadPro-It.otf") format("opentype");
+}
+@font-face {
+    font-family: MyriadPro;
+    font-weight: bold;
+    src: url("./fonts/MyriadPro-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: MyriadProSemiBold;
+    src: url("./fonts/MyriadPro-Semibold.otf") format("opentype");
+}
+@font-face {
+    font-family: MyriadProSemiBold;
+    font-style: italic;
+    src: url("./fonts/MyriadPro-SemiboldIt.otf") format("opentype");
+}

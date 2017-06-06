@@ -1,0 +1,229 @@
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+    width: 100%;
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text h1{
+    font-size: 50px;
+}
+.hero-text h2{
+    font-size: 20px;
+}
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+@media only screen 
+  and (min-device-width: 300px) 
+  and (max-device-width: 720px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+  
+
+    /* The hero image */
+    .hero-image {
+        width: 100%;
+        /* Set a specific height */
+        height: 50%;
+
+        /* Position and center the image to scale nicely on all screens */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    /* Place text in the middle of the image */
+    .hero-text h1{
+        font-size: 20px;
+    }
+    .hero-text h2{
+	margin-top: -10px;
+    	font-size: 8px;
+    }
+    .hero-text {
+        padding-top: 220px;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 8px;
+    }
+    .hero-text p{
+        margin-top: -15px;
+    }
+
+
+    /* start about */
+
+    #sobre #about{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    #sobre #about h3
+        {
+            color: #DD5724;
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+    #sobre #about h4
+        {
+            font-size: 15px;
+            padding-bottom: 10px;
+        }
+        
+    #sobre #about h5
+        {
+            color: #DD5724;
+            font-size: 15px;
+            padding-bottom: 10px;
+        }
+        
+    /* end about */
+    #valores #values{
+        margin-right: 10px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    #valores #values img
+        {   
+            filter: brightness(0) invert(0);
+            width: 100px;
+            height: auto;
+            margin-top: 15px;
+        }    
+    #valores #values h2
+        {
+            font-size: 15px;        
+        }
+    #valores #values strong
+        {
+            color: #DD5724;
+        }
+    #valores #values h3
+        {
+            padding-bottom: 15px;
+            color: rgb(0,0,0);
+        }
+    #valores #values p
+        {   
+            padding-top: 20px;
+            margin: auto;
+            font-size: 13px;
+        }
+    #valores #values a
+        {   
+
+          padding-top: 20px;
+          color: black;
+
+        } 
+
+} /*Aqui acaba o celular*/
+
+
+
+
+/* start about */
+#about h3
+    {
+        color: #DD5724;
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+#about h4
+    {
+        padding-bottom: 10px;
+    }
+#about h5
+    {
+        color: #DD5724;
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+#about .progress
+    {
+        border-radius: 4px;
+        background: #ffffff;
+        height: 6px;
+    }
+#about .progress .progress-bar-danger
+    {
+        background: #DD5724;
+    }
+#about .text-top
+    {
+        padding-top: 50px;
+    }
+#about span
+    {
+        display: block;
+        padding-bottom: 10px;
+    }
+#about small
+    {
+        font-weight: bold;
+        padding-left: 200px;
+    }
+/* end about */
+
+
+
+#valores
+    {        
+        color: black;        
+    }
+#valores img
+    {   
+    	filter: brightness(0) invert(0);
+    	margin: 0 auto;
+        width: 200px;
+        height: auto;
+    }    
+#valores h2
+    {
+        font-size: 20px;        
+    }
+#valores strong
+    {
+        color: #DD5724;
+    }
+#valores h3
+    {
+        padding-bottom: 30px;
+        color: rgb(0,0,0);
+    }
+#valores p
+    {   
+        padding-top: 20px;
+        font-size: 15px;
+    }
+#valores a
+    {   
+
+      padding-top: 20px;
+      color: black;
+
+    }      
+
+
+/* ===== Contador Projetos =====*/

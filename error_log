@@ -1,0 +1,42 @@
+[24-Mar-2017 19:18:40 America/Chicago] PHP Fatal error:  Call to a member function buscaTodos() on null in /home/smart689/public_html/application/controllers/Home.php on line 8
+[24-Mar-2017 19:18:42 America/Chicago] PHP Fatal error:  Call to a member function buscaTodos() on null in /home/smart689/public_html/application/controllers/Home.php on line 8
+[03-Apr-2017 20:42:52 America/Chicago] PHP Notice:  Undefined index: log_path in /home/smart689/public_html/system/core/Log.php on line 127
+[03-Apr-2017 20:42:52 America/Chicago] PHP Notice:  Undefined index: log_path in /home/smart689/public_html/system/core/Log.php on line 127
+[03-Apr-2017 20:42:52 America/Chicago] PHP Warning:  mkdir(): Invalid path in /home/smart689/public_html/system/core/Log.php on line 131
+[03-Apr-2017 20:42:52 America/Chicago] PHP Notice:  Undefined index: log_threshold in /home/smart689/public_html/system/core/Log.php on line 138
+[03-Apr-2017 20:42:52 America/Chicago] PHP Notice:  Undefined index: log_threshold in /home/smart689/public_html/system/core/Log.php on line 142
+[03-Apr-2017 20:44:21 America/Chicago] PHP Notice:  Undefined index: log_path in /home/smart689/public_html/system/core/Log.php on line 127
+[03-Apr-2017 20:44:21 America/Chicago] PHP Notice:  Undefined index: log_path in /home/smart689/public_html/system/core/Log.php on line 127
+[03-Apr-2017 20:44:21 America/Chicago] PHP Warning:  mkdir(): Invalid path in /home/smart689/public_html/system/core/Log.php on line 131
+[03-Apr-2017 20:44:21 America/Chicago] PHP Notice:  Undefined index: log_threshold in /home/smart689/public_html/system/core/Log.php on line 138
+[03-Apr-2017 20:44:21 America/Chicago] PHP Notice:  Undefined index: log_threshold in /home/smart689/public_html/system/core/Log.php on line 142
+[03-Apr-2017 20:44:22 America/Chicago] PHP Notice:  Undefined index: log_path in /home/smart689/public_html/system/core/Log.php on line 127
+[03-Apr-2017 20:44:22 America/Chicago] PHP Notice:  Undefined index: log_path in /home/smart689/public_html/system/core/Log.php on line 127
+[03-Apr-2017 20:44:22 America/Chicago] PHP Warning:  mkdir(): Invalid path in /home/smart689/public_html/system/core/Log.php on line 131
+[03-Apr-2017 20:44:22 America/Chicago] PHP Notice:  Undefined index: log_threshold in /home/smart689/public_html/system/core/Log.php on line 138
+[03-Apr-2017 20:44:22 America/Chicago] PHP Notice:  Undefined index: log_threshold in /home/smart689/public_html/system/core/Log.php on line 142
+[03-Apr-2017 20:44:55 America/Chicago] PHP Notice:  Undefined index: log_path in /home/smart689/public_html/system/core/Log.php on line 127
+[03-Apr-2017 20:44:55 America/Chicago] PHP Notice:  Undefined index: log_path in /home/smart689/public_html/system/core/Log.php on line 127
+[03-Apr-2017 20:44:55 America/Chicago] PHP Warning:  mkdir(): Invalid path in /home/smart689/public_html/system/core/Log.php on line 131
+[03-Apr-2017 20:44:55 America/Chicago] PHP Notice:  Undefined index: log_threshold in /home/smart689/public_html/system/core/Log.php on line 138
+[03-Apr-2017 20:44:55 America/Chicago] PHP Notice:  Undefined index: log_threshold in /home/smart689/public_html/system/core/Log.php on line 142
+[09-Apr-2017 00:03:46 America/Chicago] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /home/smart689/public_html/application/controllers/Contato.php on line 8
+[19-Apr-2017 15:58:23 America/Chicago] PHP Parse error:  syntax error, unexpected 'nome' (T_STRING) in /home/smart689/public_html/application/views/membros/membros.php on line 10
+[19-Apr-2017 15:58:47 America/Chicago] PHP Parse error:  syntax error, unexpected 'nome' (T_STRING) in /home/smart689/public_html/application/views/membros/membros.php on line 10
+[19-Apr-2017 15:59:35 America/Chicago] PHP Parse error:  syntax error, unexpected 'nome' (T_STRING) in /home/smart689/public_html/application/views/membros/membros.php on line 10
+[19-Apr-2017 15:59:36 America/Chicago] PHP Parse error:  syntax error, unexpected 'nome' (T_STRING) in /home/smart689/public_html/application/views/membros/membros.php on line 10
+[19-Apr-2017 15:59:37 America/Chicago] PHP Parse error:  syntax error, unexpected 'nome' (T_STRING) in /home/smart689/public_html/application/views/membros/membros.php on line 10
+[19-Apr-2017 16:06:30 America/Chicago] PHP Parse error:  syntax error, unexpected 'nome' (T_STRING) in /home/smart689/public_html/application/views/membros/membros.php on line 10
+[19-Apr-2017 16:07:21 America/Chicago] PHP Parse error:  syntax error, unexpected '" alt="' (T_CONSTANT_ENCAPSED_STRING) in /home/smart689/public_html/application/views/membros/membros.php on line 10
+[19-Apr-2017 16:07:22 America/Chicago] PHP Parse error:  syntax error, unexpected '" alt="' (T_CONSTANT_ENCAPSED_STRING) in /home/smart689/public_html/application/views/membros/membros.php on line 10
+[19-Apr-2017 16:42:55 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/smart689/public_html/application/config/routes.php on line 62
+[19-Apr-2017 16:43:30 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/smart689/public_html/application/config/routes.php on line 62
+[19-Apr-2017 16:43:31 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/smart689/public_html/application/config/routes.php on line 62
+[19-Apr-2017 16:43:32 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/smart689/public_html/application/config/routes.php on line 62
+[19-Apr-2017 16:43:32 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/smart689/public_html/application/config/routes.php on line 62
+[19-Apr-2017 16:43:33 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/smart689/public_html/application/config/routes.php on line 62
+[19-Apr-2017 16:43:33 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/smart689/public_html/application/config/routes.php on line 62
+[19-Apr-2017 16:44:27 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/smart689/public_html/application/config/routes.php on line 62
+[19-Apr-2017 16:45:38 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/smart689/public_html/application/config/routes.php on line 62
+[19-Apr-2017 16:45:38 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/smart689/public_html/application/config/routes.php on line 62
+[19-Apr-2017 16:46:50 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/smart689/public_html/application/config/routes.php on line 62
