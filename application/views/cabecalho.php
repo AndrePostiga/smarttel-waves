@@ -137,13 +137,13 @@
   </header>
 
 
-<div id="Fale-Conosco" style="position:fixed;bottom:5px;right:5px;margin:0;padding:5px 3px; z-index: 10000;">
-    <a href="<?=base_url('index.php/contato/main')?>">
-    <div class="circlephone" style="transform-origin: center;"></div>
-    <div class="circle-fill" style="transform-origin: center;"></div>
-    <div class="img-circle" style="transform-origin: center;"><div class="img-circleblock" style="transform-origin: center;"></div></div>    
-    </a>  
-</div>
+  <div id="Fale-Conosco" style="position:fixed;bottom:1px;right:-30px;margin:0;padding:5px 3px; z-index: 10000;">
+      <a href="<?=base_url('index.php/contato/main')?>">
+      <div class="circlephone" style="transform-origin: center;"></div>
+      <div class="circle-fill" style="transform-origin: center;"></div>
+      <div class="img-circle" style="transform-origin: center;"><div class="img-circleblock" style="transform-origin: center;"></div></div>    
+      </a>  
+  </div>
 
   <!--Captcha-->
   <script src='https://www.google.com/recaptcha/api.js'></script>

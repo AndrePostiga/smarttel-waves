@@ -160,15 +160,10 @@
     <!-- end divider -->
 
 
-
-    <!-- start parceiros / Trocar para pastas dentro do servidor!!-->
     <div id="portfolio" class="container-fluid text-center">        
         <div class="container-fluid">    
            <ul class="cycle-slideshow" data-cycle-fx="carousel" data-cycle-slides="li" data-cycle-timeout="2000" data-cycle-carousel-fluid="true">
-            <?php foreach ($parceiros as $parceiro) : 
-            //$foto = base64_encode($parceiro['foto']);
-            //$img_template = '<img id=imagem src="data:image/jpg;base64,'. $foto . '" alt="'.$parceiro['nome'].'" width="300" height="255" class="image"/>';                           
-            ?>           
+            <?php foreach ($parceiros as $parceiro) :?>           
             
             <li>
                 <div class="algo">
