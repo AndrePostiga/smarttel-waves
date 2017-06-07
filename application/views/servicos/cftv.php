@@ -91,8 +91,20 @@
 		<div id="form-contato" class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
 			<h2><strong>Solicite um orçamento<span style="color:#DD5724;">!</span></strong></h2>
 			<hr>
+			<p class="alert-success col-md-12 col-sm-12 col-xs-12">
+	            <?= $this->session->flashdata("success") ?>
+	        </p>
+	        <p class="alert-danger col-md-12 col-sm-12 col-xs-12">
+	            <?= $this->session->flashdata("danger") ?>
+	        </p>
+			<?php echo form_error('g-recaptcha-response');?>
+			<?php echo form_error("nome");?>
+			<?php echo form_error("email");?>
+			<?php echo form_error("telefone");?>
+			<?php echo form_error("conheceu");?>
+			<?php echo form_error("mensagem");?>	
 
-			<?php echo form_open("contato/enviar"); ?>
+			<?php echo form_open("servicos/enviar"); ?>
 			<div class="row contact-form form-group">	
 			
 			<div class="col-md-12 col-sm-12 col-xs-12 wow fadeIn" data-wow-delay="0.3s">				
@@ -100,6 +112,7 @@
 			</div>
 			<br>
 			<br>
+			<input type="hidden" name="assunto" id="assunto" value="CFTV">
 			<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 wow fadeIn controls" data-wow-delay="0.3s">				
 				<input name="nome" type="text" class="floatLabel" id="nome" value="<?=set_value('nome')?>">
 				<label for="nome">Nome*</label>				
@@ -108,6 +121,17 @@
 				<input name="email" type="email" class="floatLabel" id="email" value="<?=set_value('email')?>">
 				<label for="email">Email*</label>
 			</div>				
+			<div class="col-md-12 col-sm-12 col-xs-12 wow fadeIn controls" data-wow-delay="0.3s">
+				<input name="telefone" type="text" class="floatLabel" id="telefone" value="<?=set_value('telefone')?>">	
+				<label for="telefone">Telefone*</label>							
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12 wow fadeIn controls" data-wow-delay="0.9s" >
+				<textarea name="mensagem" rows="5" class="floatLabel" id="mensagem"><?=set_value('mensagem')?></textarea>
+				<label for="mensagem">Mensagem</label>
+			</div>	
+			<div class="col-md-12 col-sm-12 col-xs-12 wow fadeIn controls" data-wow-delay="0.2s">
+				<div class="g-recaptcha" data-sitekey="6LekpBsUAAAAAHjrsJAsOAjtUZ48VB2gf51_RG2p"></div>				
+			</div>	
 
 	        <div id="botao" class="col-xs-12 col-sm-12 col-lg-12 col-md-12 text-center">
 	        <?php
@@ -118,12 +142,6 @@
 	        ));
 	        ?>
 	        </div>
-		        
-	        <div class="col-md-12">
-	        <br>
-			<?php echo form_error("nome");?>
-			<?php echo form_error("email");?>	
-	      	</div>
 		      	
 	        <?php echo form_close();?>      	
 		      	
