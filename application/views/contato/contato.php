@@ -89,7 +89,7 @@
 	
 	<section id="form">
 		<div class="container">
-			<?php echo form_open("contato/enviar"); ?>
+			<?php echo form_open("index.php/enviar-email"); ?>
 			<div class="row contact-form form-group">				
 			<h2 class="heading">Envie um email</h2>
 			
@@ -124,24 +124,23 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 wow fadeIn controls" data-wow-delay="0.9s" >
 				<textarea name="mensagem" rows="5" class="floatLabel" id="mensagem"><?=set_value('mensagem')?></textarea>
 				<label for="mensagem">Mensagem</label>
-			</div>		
+			</div>	
 			<div class="col-md-6 col-sm-12 col-xs-12 wow fadeIn controls" data-wow-delay="0.2s" >
 				<div class="g-recaptcha" data-sitekey="6LekpBsUAAAAAHjrsJAsOAjtUZ48VB2gf51_RG2p"></div>				
-			</div>			
-
-		        <div id="botao" class="col-md-6 text-right">
-		        <?php
-		        echo form_button(array(
-		            "class" => "btn",
-		            "content" => "Enviar",
-		            "type" => "submit",
-		        ));
-		        ?>
-		        </div>
-		        
-		        <div class="col-md-12">
-		        <br>
-		      	<?php echo form_error('g-recaptcha-response');?>
+			</div>
+	        <div id="botao" class="col-md-6 text-right">
+	        <?php
+	        echo form_button(array(
+	            "class" => "btn",
+	            "content" => "Enviar",
+	            "type" => "submit",
+	        ));
+	        ?>
+	        </div>
+	        
+	        <div class="col-md-12">
+	        <br>
+	      	<?php echo form_error('g-recaptcha-response');?>
 			<?php echo form_error("nome");?>
 			<?php echo form_error("email");?>
 			<?php echo form_error("telefone");?>
@@ -149,9 +148,9 @@
 			<?php echo form_error("estado");?>	
 			<?php echo form_error("cidade");?>	
 			<?php echo form_error("mensagem");?>	
-		      	</div>
+	      	</div>
 		      	
-		        <?php echo form_close();?>      	
+	        <?php echo form_close();?>      	
 		      	
 		      	
 			</div><!--Row-->

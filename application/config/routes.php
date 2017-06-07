@@ -65,3 +65,4 @@ $route['fibra-optica'] = 'servicos/fibra/main';
 $route['redes-com-fio-e-wifi'] = 'servicos/redes/main';
 $route['capacitacao'] = 'servicos/capacitacao/main';
 $route['servicos'] = 'servicos/servicos/main';
+$route['servicos-email'] = 'servicos/servicos/enviar';

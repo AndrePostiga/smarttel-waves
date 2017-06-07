@@ -15,7 +15,7 @@ class Contato extends CI_Controller{
 		$this->form_validation->set_rules("nome", "nome", "trim|required");
 		$this->form_validation->set_rules("email", "email", "trim|valid_email|required");
 		$this->form_validation->set_rules("telefone", "telefone", "trim|required");
-		$this->form_validation->set_rules('g-recaptcha-response','Captcha','callback_recaptcha');
+		//$this->form_validation->set_rules('g-recaptcha-response','Captcha','callback_recaptcha');
 		$this->form_validation->set_rules("conheceu", "conheceu", "trim");
 		$this->form_validation->set_rules("mensagem", "mensagem", "trim");
 		
@@ -32,39 +32,7 @@ class Contato extends CI_Controller{
 				"cidade" => $this->input->post("cidade"),
 				"mensagem" => $this->input->post("mensagem")
 			);
-			$this->load->library('email');
-
-	        $config['protocol'] = 'smtp'; // define o protocolo utilizado
-	        $config['smtp_host'] = 'br802.hostgator.com.br';
-	        $config["smtp_user"] = "contato@smartteljr.com.br";
-	        $config["smtp_pass"] = "123456";
-	        $config['_smtp_auth']   = TRUE;
-	        $config["charset"] = "utf-8";
-	        $config["newline"] = "\r\n";
-	        $config["smtp_port"] = '26';
-       	 	$config['wordwrap'] = TRUE; // define se haverá quebra de palavra no texto
-       		$config['validate'] = TRUE; // define se haverá validação dos endereços de email
-       		$config['mailtype'] = 'text';
-       		// Inicializa a library Email, passando os parâmetros de configuração
-        	$this->email->initialize($config);
-
-			//fazer logida do email
-			$this->email->from($config['smtp_user'], $contato['nome']); //(emailDoRemetente, NomeDoRemetente)
-			$this->email->to('contato@smartteljr.com.br'); //(emailDoDestinatario)
-
-			$this->email->subject('Contato Cliente SmartTel Jr.'); //Assunto
-			$this->email->message('Nome: '.$contato['nome'].PHP_EOL.'Email: '.$contato['email'].PHP_EOL.'Telefone: '.$contato['telefone'].PHP_EOL.'Assunto: '.$contato['assunto'].PHP_EOL.'Estado: '.$contato['estado'].PHP_EOL.'Cidade: '.$contato['cidade'].PHP_EOL.PHP_EOL.'Mensagem: '.PHP_EOL.$contato['mensagem']); //mensagem
-
-			if($this->email->send())
-	        {
-	            $this->session->set_flashdata('success','Recebemos o seu email! Aguarde, logo entraremos em contato');
-	            $this->main();
-	        }
-	        else
-	        {
-	            $this->session->set_flashdata('danger',$this->email->print_debugger());
-	            $this->main();
-	        }	    	
+			$this->email($contato);
 	    }else{
 	    	$this->main();
 	    }
@@ -94,5 +62,27 @@ class Contato extends CI_Controller{
 	    $this->form_validation->set_message('recaptcha', 'Marque a caixa CAPTCHA para confirmar que você não é um robô!');
 	    return FALSE;
 	  }
+	}
+
+	public function email($contato){
+		$this->load->library('email');	        
+
+		//fazer logida do email
+		$this->email->from("contato@smartteljr.com.br", $contato['nome']); //(emailDoRemetente, NomeDoRemetente)
+		$this->email->to('contato@smartteljr.com.br'); //(emailDoDestinatario)
+
+		$this->email->subject('Contato Cliente SmartTel Jr.'); //Assunto
+		$this->email->message('Nome: '.$contato['nome'].PHP_EOL.'Email: '.$contato['email'].PHP_EOL.'Telefone: '.$contato['telefone'].PHP_EOL.'Assunto: '.$contato['assunto'].PHP_EOL.'Estado: '.$contato['estado'].PHP_EOL.'Cidade: '.$contato['cidade'].PHP_EOL.PHP_EOL.'Mensagem: '.PHP_EOL.$contato['mensagem']); //mensagem
+
+		if($this->email->send())
+        {
+            $this->session->set_flashdata('success','Recebemos o seu email! Aguarde, logo entraremos em contato');
+            $this->main();
+        }
+        else
+        {
+            $this->session->set_flashdata('danger',$this->email->print_debugger());
+            $this->main();
+        }	
 	}
 }

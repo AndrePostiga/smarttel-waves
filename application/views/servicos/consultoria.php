@@ -88,9 +88,12 @@
 				</div>	
 			</div>
 		</div>
-		<div id="form-contato" class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
+				<div id="form-contato" class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
 			<h2><strong>Solicite um orçamento<span style="color:#DD5724;">!</span></strong></h2>
 			<hr>
+				
+
+			<?php echo form_open("index.php/servicos/consultoria/enviar"); ?>
 			<p class="alert-success col-md-12 col-sm-12 col-xs-12">
 	            <?= $this->session->flashdata("success") ?>
 	        </p>
@@ -102,9 +105,7 @@
 			<?php echo form_error("email");?>
 			<?php echo form_error("telefone");?>
 			<?php echo form_error("conheceu");?>
-			<?php echo form_error("mensagem");?>	
-
-			<?php echo form_open("servicos/enviar"); ?>
+			<?php echo form_error("mensagem");?>
 			<div class="row contact-form form-group">	
 			
 			<div class="col-md-12 col-sm-12 col-xs-12 wow fadeIn" data-wow-delay="0.3s">				
@@ -112,7 +113,7 @@
 			</div>
 			<br>
 			<br>
-			<input type="hidden" name="assunto" id="assunto" value="Consultoria">
+			<input type="hidden" name="assunto" id="assunto" value="Projetos e Consultoria">
 			<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 wow fadeIn controls" data-wow-delay="0.3s">				
 				<input name="nome" type="text" class="floatLabel" id="nome" value="<?=set_value('nome')?>">
 				<label for="nome">Nome*</label>				
