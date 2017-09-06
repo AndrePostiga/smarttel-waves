@@ -163,6 +163,7 @@
     <div id="portfolio" class="container-fluid text-center">        
         <div class="container-fluid">    
            <ul class="cycle-slideshow" data-cycle-fx="carousel" data-cycle-slides="li" data-cycle-timeout="2000" data-cycle-carousel-fluid="true">
+            
             <?php foreach ($parceiros as $parceiro) :?>           
             
             <li>

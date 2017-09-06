@@ -35,12 +35,12 @@
 */
 
 // The following values will probably need to be changed.
-$db['default']['username'] = "root";
-$db['default']['password'] = "";
-$db['default']['database'] = "smarttel";
+$db['default']['username'] = "smart689";
+$db['default']['password'] = "2oPA863izg";
+$db['default']['database'] = "smart689_001";
 
 // The following values can probably stay the same.
-$db['default']['hostname'] = "localhost";
+$db['default']['hostname'] = "br802.hostgator.com.br";
 $db['default']['dbdriver'] = "mysqli"; //Updated to latest driver.
 $db['default']['dbprefix'] = "";
 $db['default']['pconnect'] = TRUE;
