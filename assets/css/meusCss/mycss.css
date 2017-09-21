@@ -171,7 +171,7 @@ p
     }
 
     nav.navbar {
-    min-height:90px;
+    min-height:10px;
     margin-bottom:0;
     border:0;
     border-radius:0;
@@ -241,7 +241,7 @@ nav.shrink .navbar-brand {
 
 nav.navbar{
   background-color:transparent;
-   // Animation
+   /* Animation*/
    -webkit-transition: all 0.4s ease;
    transition: all 0.4s ease;
 }

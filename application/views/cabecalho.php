@@ -6,6 +6,7 @@
   <title><?=$titulo?></title>
   <link rel="shortcut icon" type="image/png" href="<?=base_url('assets/img/favicon3.png')?>"/>
   <link rel="apple-touch-icon" href="<?=base_url('assets/img/favicon3.png')?>">
+  <meta name="theme-color" content="#DD5724" />
   <meta name="keywords" content="SmartTel Telecomunicações Telecom UFF Escola de Engenharia">
   <meta name="description" content="A SmartTel Jr. nasceu da vontade de conectar cada vez mais pessoas, tornar a vida melhor através da tecnologia e associar o conhecimento técnico acadêmico ao mercado de trabalho.">
   
@@ -105,7 +106,12 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <h1 style="margin: 0;"><a class="navbar-brand center-block" href="<?=base_url('home')?>"><img class="img-responsive" src="<?=base_url('assets/img/logo.png')?>" alt="Smarttel Jr"></a></h1>
+                    <h1 style="margin: 0;">
+                      <a class="navbar-brand center-block" href="<?=base_url('home')?>">
+                        <img class="img-responsive hidden-xs hidden-sm" src="<?=base_url('assets/img/logo.png')?>" alt="Smarttel Jr">
+                        <img class="img-responsive hidden-md hidden-lg" src="<?=base_url('assets/img/favicon3.png')?>" alt="Smarttel Jr">
+                      </a>
+                    </h1>
                 </div>
 
                 
