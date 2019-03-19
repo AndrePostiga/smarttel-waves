@@ -40,9 +40,9 @@
 					<i class="fa fa-map-o" aria-hidden="true"></i>						
 					<h2>Visite</h2> <br>
 					<p>
-                    Rua Passo da Pátria, 156 – Bloco D   
-                    <br> Sala 360 A – São Domingos, 24210-253 
-                    <br> Niterói, Brasil
+                    Lorem ipsum dolor sit amet, 156 – Bloco X   
+                    <br> Sala 999 Y – Lorem Ipsum, 99999-999 
+                    <br> Lorem, Ipsum
                 	</p>
                 	<br>
 					</div>
@@ -55,7 +55,7 @@
 					<h2>Ligue</h2>
 					<br>
 					<p>					
-                    Escritório <br>+55 21 2629-5531
+                    Escritório <br>+55 00 0000-0000
                     <br>                   
                 	</p>
 					</div>
@@ -67,11 +67,11 @@
 					<h2>Email</h2>
 					<p>
                     Email:
-                    <a href="#">contato@smartteljr.com.br</a>
+                    <a href="#">contato@lorem.com.br</a>
                     <br> Facebook : 
-                    <a href="https://www.facebook.com/smartteljr/" target="_blank">/smartteljr/</a>
+                    <a href="https://www.facebook.com/#/" target="_blank">/smartteljr/</a>
 					<br> LinkedIn :
-                    <a href="https://www.linkedin.com/in/smarttel-jr-consultoria-e-projetos-em-telecom-756587133/" target="_blank">smarttel jr</a>
+                    <a href="https://www.linkedin.com/" target="_blank">smarttel jr</a>
                		</p>
 					</div>
 				</div>

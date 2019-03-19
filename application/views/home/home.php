@@ -1,6 +1,6 @@
     <section id="home"> 
 
-    <div id="large-header" class="large-header" style="background-image: url('<?=base_url('assets/img/smarttel_jr_consultoria4.jpg')?>');">
+    <div id="large-header" class="large-header" style="background-image: url('<?=base_url('assets/img/smarttel_jr_consultoria5.jpg')?>');">
     <canvas id="waves" class="hidden-xs hidden-sm"></canvas>
 
     <!--Home page sem animação para mobile-->
