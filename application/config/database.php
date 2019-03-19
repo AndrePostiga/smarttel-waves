@@ -33,14 +33,14 @@
 | The $active_record variables lets you determine whether or not to load
 | the active record class
 */
-
+mysql://bcba0861a76c94:15f7db20@us-cdbr-iron-east-03.cleardb.net/heroku_58be5cf91586ec2?reconnect=true
 // The following values will probably need to be changed.
-$db['default']['username'] = "smart689";
-$db['default']['password'] = "2oPA863izg";
-$db['default']['database'] = "smart689_001";
+$db['default']['username'] = "bcba0861a76c94";
+$db['default']['password'] = "15f7db20";
+$db['default']['database'] = "heroku_58be5cf91586ec2";
 
 // The following values can probably stay the same.
-$db['default']['hostname'] = "br802.hostgator.com.br";
+$db['default']['hostname'] = "us-cdbr-iron-east-03.cleardb.net";
 $db['default']['dbdriver'] = "mysqli"; //Updated to latest driver.
 $db['default']['dbprefix'] = "";
 $db['default']['pconnect'] = TRUE;
