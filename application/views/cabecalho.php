@@ -123,8 +123,6 @@
                         <li id="navServ" class="dropdown">
                           <a href="<?=base_url('index.php/servicos')?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SERVIÇOS <span class="caret"></span></a>
                           <ul class="dropdown-menu">
-                            <li><a href="<?=base_url('index.php/servicos')?>">Todos</a></li>
-                            <li role="separator" class="divider"></li>
                             <li><a href="<?= base_url('index.php/projetos-e-consultoria')?>">Consultoria</a></li>
                             <li><a href="<?= base_url('index.php/telefonia-ip-e-pabx')?>">Telefonia</a></li>
                             <li><a href="<?= base_url('index.php/cftv-seguranca')?>">CFTV e Segurança</a></li>
