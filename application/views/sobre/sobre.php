@@ -1,4 +1,4 @@
-<section class="hero-image" style="background-image:url('<?=base_url('assets/img/smarttel_jr_consultoria4.jpg');?>');">
+<section class="hero-image" style="background-image:url('<?=base_url('assets/img/smarttel_jr_consultoria5.jpg');?>');">
   <div class="hero-text">
     <h1><strong>A Smart<span style="color:#DD5724;">Tel</span></strong></h1>
     <h2><strong>Consultoria e Projetos em Telecomunicações</strong></h2>
