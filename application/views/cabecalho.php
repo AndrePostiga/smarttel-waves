@@ -15,7 +15,11 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <!--Responsivo-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  
+  	
+	<!--Teste Chat Zendesk-->
+	<!-- Start of andrepostiga Zendesk Widget script -->
+	<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=bb216095-4ba7-44bf-8424-303881e85f1d"> </script>
+	<!-- End of andrepostiga Zendesk Widget script -->	
   
    <!--MArketing Facebook-->  
   <meta property="og:type" content="website"/>
